@@ -1,0 +1,362 @@
+[
+ {
+  "slug": "kims-college-lms",
+  "title": "KIMS College LMS",
+  "desc": "A learning management system where students, teachers and admins manage courses, lectures, assignments, quizzes and results in one place.",
+  "hue": 260,
+  "tags": [
+   "Next.js",
+   "TypeScript",
+   "MongoDB",
+   "JWT"
+  ],
+  "url": "https://kims-college-lms-3.vercel.app/",
+  "badge": "Featured",
+  "points": [
+   "Role-based authentication with separate dashboards for students, teachers and administrators",
+   "Public college site with About, Courses, Teachers and FAQ sections",
+   "Six degree programs (BSCS, BSAI, BSIT, BSSE, BSMATH, BBA), each broken into subjects",
+   "Every subject has its own lectures, assignments and quizzes",
+   "Student dashboard showing overall percentage, grade, and subject, assignment and quiz counts",
+   "Admin overview of total students, teachers, courses and subjects",
+   "Timed multiple-choice quizzes graded on the server, with instant results",
+   "Lectures organised by subject, including public sample lectures",
+   "An AI Study Assistant for student support",
+   "Sign-in and sign-up flow, REST APIs and MongoDB models, responsive on phone and laptop"
+  ]
+ },
+ {
+  "slug": "rag-gpt",
+  "title": "RAG-GPT",
+  "desc": "BilalGPT, a personal AI assistant that answers from a knowledge base using Gemini, RAG and persistent memory.",
+  "hue": 190,
+  "tags": [
+   "Next.js",
+   "TypeScript",
+   "Gemini",
+   "Vector Search"
+  ],
+  "url": "https://rag-gpt-updated-sable.vercel.app/",
+  "badge": "AI",
+  "points": [
+   "A personal AI assistant branded BilalGPT, powered by Google Gemini",
+   "Retrieval-augmented generation (RAG) so answers come from a knowledge base",
+   "MongoDB Atlas Vector Search finds the most relevant content for each question",
+   "Persistent memory so the assistant keeps context across conversations",
+   "Knowledge-base response handling built around retrieved content",
+   "Chat-style interface designed to feel like a premium assistant",
+   "Frontend and backend live in a single Next.js application",
+   "Written in TypeScript for safer, easier-to-maintain code",
+   "Stores data in MongoDB Atlas",
+   "Deployed on Vercel"
+  ]
+ },
+ {
+  "slug": "blood-donation-network",
+  "title": "Blood Donation Network",
+  "desc": "An emergency platform that connects blood donors with people in urgent need, with admin tools and WhatsApp contact.",
+  "hue": 350,
+  "tags": [
+   "Next.js",
+   "TypeScript",
+   "MongoDB",
+   "JWT"
+  ],
+  "url": "https://blood-donor-iota.vercel.app/",
+  "points": [
+   "Donor and blood-request workflows with authentication and role-based access",
+   "Public pages: Home, About, Team, Donors, Required Blood, Health Tips, Activity and Contact",
+   "Become Donor and Need Blood forms for the two sides of the network",
+   "Emergency button that opens a WhatsApp chat straight away",
+   "Team page where each administrator has Call Now and Chat buttons",
+   "Interface available in English, Urdu and Roman Urdu",
+   "Admin management features with a Super Administrator and Administrators",
+   "MongoDB/Mongoose models and REST API functionality",
+   "Privacy-focused design, with Privacy Policy and Terms pages",
+   "Responsive layout built for use in an emergency"
+  ]
+ },
+ {
+  "slug": "bilal-gpt",
+  "title": "Bilal GPT",
+  "desc": "My own AI chat assistant, live and ready to talk to.",
+  "hue": 210,
+  "tags": [
+   "AI",
+   "Live on Vercel"
+  ],
+  "url": "https://bilal-gpt.vercel.app/",
+  "badge": "AI",
+  "points": [
+   "An AI chat assistant that you can talk to in the browser",
+   "Simple conversation-style interface",
+   "Built to show how I add AI features to a web product",
+   "Responsive layout that works on phones and laptops",
+   "Deployed on Vercel and open to anyone with the link",
+   "Part of my AI application work alongside RAG-GPT",
+   "Built with the same modern React tooling I use on my other projects",
+   "Focused on a clean, distraction-free chat experience",
+   "Easy to extend with new features and models",
+   "Open it and try it yourself"
+  ]
+ },
+ {
+  "slug": "digital-store",
+  "title": "Digital Store",
+  "desc": "TechStore, a storefront for laptops, tablets, audio and wearables, with category filters and a cart.",
+  "hue": 30,
+  "tags": [
+   "Next.js",
+   "React",
+   "Tailwind"
+  ],
+  "url": "https://v0-digital-store-sepia.vercel.app/",
+  "points": [
+   "A storefront called TechStore for laptops, tablets, audio, wearables and accessories",
+   "Hero section with a featured product and a call to action",
+   "Category tabs to filter products: All, Laptops, Tablets, Audio, Wearables, Accessories",
+   "Product cards with image, badge (New, Popular, Best Seller), specs and price",
+   "Add to cart buttons and a separate cart page",
+   "Contact page for customer questions",
+   "Trust highlights: free shipping, 2-year warranty, 24/7 support and easy returns",
+   "Reusable React/Next.js components used across the pages",
+   "Responsive, product-focused layout",
+   "Structured for maintainability and deployed on Vercel"
+  ]
+ },
+ {
+  "slug": "prayer-time",
+  "title": "Prayer Time",
+  "desc": "A prayer times app for Pakistan that finds your location and shows daily prayer times.",
+  "hue": 140,
+  "tags": [
+   "Web app",
+   "API",
+   "Live on Vercel"
+  ],
+  "url": "https://prayer-time-rust.vercel.app/",
+  "points": [
+   "Shows daily prayer times for Pakistan",
+   "Detects the visitor's location automatically",
+   "Gets the times from the AlAdhan API",
+   "Displays the current date with a LIVE indicator",
+   "Titles in both English and Urdu",
+   "Shows the Fajr adhan phrase in Arabic at the top",
+   "Loading state while the times are fetched",
+   "Lightweight single-purpose web app",
+   "Made for everyday use",
+   "Deployed on Vercel"
+  ]
+ },
+ {
+  "slug": "attendance-system",
+  "title": "Attendance System",
+  "desc": "A web app for tracking attendance.",
+  "hue": 160,
+  "tags": [
+   "Web app",
+   "Live on Vercel"
+  ],
+  "url": "https://attendace-system-eta.vercel.app/",
+  "points": [
+   "A web app for recording and tracking attendance",
+   "Built for schools, colleges or teams that need simple attendance records",
+   "Clear, easy-to-scan interface",
+   "Responsive layout for phones and laptops",
+   "Designed to save time compared with paper registers",
+   "Built with a React-based stack",
+   "Deployed on Vercel",
+   "Open to anyone with the link",
+   "Easy to extend with reports and more roles",
+   "Open the live site to try it"
+  ]
+ },
+ {
+  "slug": "salon-booking",
+  "title": "Salon Booking",
+  "desc": "Glamour Studio, an online salon and spa booking site with a four-step booking flow.",
+  "hue": 320,
+  "tags": [
+   "Booking",
+   "Web app",
+   "Live on Vercel"
+  ],
+  "url": "https://salon-booking-w1o3.vercel.app/",
+  "points": [
+   "An online booking site for Glamour Studio, a premium salon and spa",
+   "Four-step flow: Service, Stylist & Time, Your Details and Confirm",
+   "Service categories: Hair, Skin, Nails, Spa and Makeup, with an All filter",
+   "Eight services, from Eyebrow Threading to Bridal Makeup",
+   "Prices shown in Rs. with each service's duration in minutes",
+   "Popular badges on the most-booked treatments",
+   "Clear descriptions, such as Keratin Treatment and Premium Facial",
+   "Simple step-by-step layout that guides customers to confirm",
+   "Icon-led, easy-to-scan service cards",
+   "Responsive design that works on phones, where most bookings happen"
+  ]
+ },
+ {
+  "slug": "transport-tracker",
+  "title": "Transport Tracker",
+  "desc": "TransitLive, a real-time-style public transport dashboard that shows buses, routes and stops.",
+  "hue": 200,
+  "tags": [
+   "Tracking",
+   "Dashboard",
+   "Live on Vercel"
+  ],
+  "url": "https://transport-tracker-lyart.vercel.app/",
+  "points": [
+   "A public transport tracker called TransitLive",
+   "Dashboard stats: Active Buses, Routes Running, Average ETA and Total Stops",
+   "Three views: Live Buses, Routes and Stops",
+   "Route filter for All Routes, Route 101, Route 202 and Route 303",
+   "Bus cards with route name, next stop and ETA",
+   "Speed, driver name, bus ID and on-time status on every card",
+   "Seat availability labels: Seats Available, Getting Busy, Almost Full and No Seats",
+   "Live clock in the header",
+   "Colour-coded status for quick scanning",
+   "Clean dashboard layout with icons, built to be read at a glance"
+  ]
+ },
+ {
+  "slug": "clinic-website",
+  "title": "Clinic Website",
+  "desc": "A clinic website presenting services and information to patients.",
+  "hue": 170,
+  "tags": [
+   "Website",
+   "Live on Vercel"
+  ],
+  "url": "https://clinic-henna-kappa.vercel.app/",
+  "points": [
+   "A website for a clinic that presents its services to patients",
+   "Clear layout so patients find information quickly",
+   "Contact information for reaching the clinic",
+   "Professional, clean, healthcare-friendly design",
+   "Responsive layout for phones and desktops",
+   "Fast loading, simple pages",
+   "Built with a React-based stack",
+   "Deployed on Vercel",
+   "Easy to update with new services",
+   "Open the live site to see it"
+  ]
+ },
+ {
+  "slug": "gpa-calculator",
+  "title": "GPA Calculator",
+  "desc": "A tool for calculating GPA quickly.",
+  "hue": 280,
+  "tags": [
+   "Tool",
+   "Live on Vercel"
+  ],
+  "url": "https://gpa-calculator-9xy9.vercel.app/",
+  "points": [
+   "A tool that calculates GPA from your course results",
+   "Designed for students who want a fast answer",
+   "Simple, focused interface for one job",
+   "Works on phones and laptops",
+   "No sign-up needed",
+   "Built with a React-based stack",
+   "Quick to load",
+   "Deployed on Vercel",
+   "Easy to extend with more grading scales",
+   "Open the live site and try it"
+  ]
+ },
+ {
+  "slug": "timeline",
+  "title": "Timeline",
+  "desc": "A timeline app, live on Vercel.",
+  "hue": 240,
+  "tags": [
+   "Web app",
+   "Live on Vercel"
+  ],
+  "url": "https://timeline-delta-ashen.vercel.app/",
+  "points": [
+   "A web app that presents events in a timeline",
+   "Easy-to-follow, chronological layout",
+   "Clean, modern visual design",
+   "Responsive layout for phones and laptops",
+   "Smooth, readable presentation of information",
+   "Built with a React-based stack",
+   "Fast loading",
+   "Deployed on Vercel",
+   "Easy to extend with more entries",
+   "Open the live site to see it"
+  ]
+ },
+ {
+  "slug": "luxury-cars",
+  "title": "Luxury Cars",
+  "desc": "A luxury car showroom with ten supercars and a detail page for each one.",
+  "hue": 290,
+  "tags": [
+   "Next.js",
+   "React",
+   "Tailwind"
+  ],
+  "url": "https://luxury-cars-eight.vercel.app/",
+  "points": [
+   "A luxury car showroom website with a 'Drive Your Dream' hero",
+   "Home, Cars and Contact pages",
+   "Featured collection of ten cars, including Lamborghini, Ferrari, Bugatti and Rolls Royce",
+   "Each car shows its photo, brand and price",
+   "A separate View Details page for every car",
+   "Collection page with a View All Cars link",
+   "Prices ranging from $300,000 to $2,000,000",
+   "Responsive automotive showcase with modern vehicle presentation",
+   "Dynamic routes for the individual car pages",
+   "Deployed on Vercel"
+  ]
+ },
+ {
+  "slug": "asif-langrah-portfolio",
+  "title": "Asif Langrah Portfolio",
+  "desc": "A full portfolio website for a Generative AI engineer, with an AI assistant, projects and contact form.",
+  "hue": 150,
+  "tags": [
+   "Next.js",
+   "TypeScript",
+   "Tailwind"
+  ],
+  "url": "https://asif-langrah-portfolio.vercel.app/",
+  "points": [
+   "A portfolio website for Asif Langrah, a Generative AI Engineer and full-stack developer",
+   "Sections for Home, About, Skills, Experience, Projects, Testimonials and Contact",
+   "An 'Ask Asif AI' assistant built into the site",
+   "Expertise cards for Generative AI, AI applications, full-stack and React/Next.js",
+   "Skills grouped by AI, programming, frontend, backend and database",
+   "Selected projects with Code and Live links",
+   "Open source section listing GitHub repositories",
+   "Working contact form with name, email and message",
+   "SEO setup with metadata, Open Graph and Twitter cards",
+   "Reusable responsive UI components with clean frontend architecture"
+  ]
+ },
+ {
+  "slug": "bilal-portfolio",
+  "title": "Bilal Portfolio",
+  "desc": "An earlier version of my own portfolio site.",
+  "hue": 330,
+  "tags": [
+   "Portfolio",
+   "Live on Vercel"
+  ],
+  "url": "https://bilal-portfolio-rouge.vercel.app/",
+  "points": [
+   "An earlier version of my personal portfolio website",
+   "Introduces who I am and what I build",
+   "Shows a selection of my projects",
+   "Includes ways to contact me",
+   "Responsive layout for phones and laptops",
+   "Built with a React-based stack",
+   "Deployed on Vercel",
+   "Replaced by the current, more animated portfolio",
+   "Shows how my design and code have improved",
+   "Open it to compare with this version"
+  ]
+ }
+]
